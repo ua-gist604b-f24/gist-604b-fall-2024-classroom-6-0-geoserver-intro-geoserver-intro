@@ -1,0 +1,23 @@
+name: Check for required files
+
+on:
+  push:
+    branches: [ assignment ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check Answers
+        id: check_answers
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "answers.md"
+
+      - name: Required script exist
+        if: steps.check_answers.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'answers.md', is missing
+          exit 1
