@@ -5,15 +5,17 @@
 
 1. What is the URL of the WMS GetCapabilities request?
 
-    A.
+    A. https://verbose-funicular-4xqqqw4pp5427597-8080.app.github.dev/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities
 
 2. What is the URL of the WFS GetCapabilities request?
 
-    A.
+    A. https://verbose-funicular-4xqqqw4pp5427597-8080.app.github.dev/geoserver/wfs?service=wfs&version=1.1.0&request=GetCapabilities
 
 3. Submit a screenshot of your updated WFS Layer Preview
 
     A.
+    ![Archaeological sites stylized web feature service layer preview](screencaps/wfs.PNG)
+
 
 4. What does drawing order refer to? Which layer goes on top, the first or the last layer in the list?
 
