@@ -1,12 +1,14 @@
-1. https://organic-space-orbit-pjpwv5xvqv4726gjv-8080.app.github.dev/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities
-2. https://organic-space-orbit-pjpwv5xvqv4726gjv-8080.app.github.dev/geoserver/wfs?service=wfs&version=1.1.0&request=GetCapabilities
+1. https://refactored-sniffle-q7p4r5wr5vr53xr9v-8080.app.github.dev/geoserver/ows?service=WMS&version=1.3.0&request=GetCapabilities
+2. https://refactored-sniffle-q7p4r5wr5vr53xr9v-8080.app.github.dev/geoserver/wfs?service=wfs&version=1.1.0&request=GetCapabilities
 3. 
-4. Drawing order refers to which layers are going to show up in front of other layers. This is how you can show all the layers properly so that everything is visible. The last layer will be the last one drawn and will be the layer on top of all other layers. 
-5. 
-6. 
-7. 
-8. 
+4. Drawing order refers to which layers are going to show up in front of other layers. This is how you can show all the layers properly so that everything is visible. The last layer will be the last one drawn and will be the layer on top of all other layers.
+5.  
+6. https://refactored-sniffle-q7p4r5wr5vr53xr9v-8080.app.github.dev/geoserver/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&STYLES&LAYERS=spearfish&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A26713&WIDTH=500&HEIGHT=500&BBOX=594491.5625833046%2C4918174.583153752%2C601821.3028315624%2C4923318.762833194 
+7. https://refactored-sniffle-q7p4r5wr5vr53xr9v-8080.app.github.dev/geoserver/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&STYLES&LAYERS=spearfish&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A26713&WIDTH=768&HEIGHT=540&BBOX=594491.5625833046%2C4918174.583153752%2C601821.3028315624%2C4923318.762833194 
+8. https://refactored-sniffle-q7p4r5wr5vr53xr9v-8080.app.github.dev/geoserver/gwc/service/wmts?layer=spearfish&style=&tilematrixset=EPSG%3A4326&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=EPSG%3A4326%3A12&TileCol=1733&TileRow=1037 This is different than the previous URL as this is broken down into tiles or squares and it is differentiting between these squares for the image rendering whereas the other URL requests part of the new bounding box with each pan or zoom. This URL has TileCol, TileMatrix,and a TileRow which I know to be similar to downloading raster data which comes in forms of 30 by 30 meter pixels which also has reference to rows and columns. 
 9. 
+https://refactored-sniffle-q7p4r5wr5vr53xr9v-8080.app.github.dev/geoserver/gwc/service/wmts?layer=spearfish&style=&tilematrixset=EPSG%3A4326&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=EPSG%3A4326%3A10&TileCol=434&TileRow=259 Col = 434 and Row = 259
 10. 
-11. 
-12. 
+https://refactored-sniffle-q7p4r5wr5vr53xr9v-8080.app.github.dev/geoserver/gwc/service/wmts?layer=spearfish&style=&tilematrixset=EPSG%3A4326&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=EPSG%3A4326%3A17&TileCol=55462&TileRow=33181 Col = 55462 and Row = 33181
+11. They are so different as the closer in you zoom, the more tiles there are since your scale is getting larger they are more tiles to make up the entire web map. 
+12. That number is the projection/coordinate reference system for the web map. 
