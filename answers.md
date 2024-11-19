@@ -14,16 +14,17 @@
 3. Submit a screenshot of your updated WFS Layer Preview
 
     A.
-    ![Archaeological sites stylized web feature service layer preview](screencaps/wfs.PNG)
+    ![Archaeological sites stylized web feature service layer preview](screencaps/archsites.PNG)
 
 
 4. What does drawing order refer to? Which layer goes on top, the first or the last layer in the list?
 
-    A.
+    A. The order in which the layers are rendered, from top (first) down (last).  The last layer in the list is rendered on top of all other layers.
 
 5. Submit a screenshot of the Layer Preview of the Spearfish Layer Group when sf:sfdem is listed as the 3rd layer.
 
     A.
+    ![Map preview of Spearfish, SD with DEM layer repositioned.](screencaps/spearfish.PNG)
 
 6. What is the WMS url for the single-tiled request?
 
