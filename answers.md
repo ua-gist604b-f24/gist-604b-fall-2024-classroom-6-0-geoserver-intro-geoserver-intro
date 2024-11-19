@@ -34,15 +34,15 @@
 
     A. https://verbose-funicular-4xqqqw4pp5427597-8080.app.github.dev/geoserver/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&tiled=true&STYLES&LAYERS=spearfish&exceptions=application%2Fvnd.ogc.se_inimage&tilesOrigin=589425.9342365642%2C4913959.224611808&WIDTH=256&HEIGHT=256&SRS=EPSG%3A26713&BBOX=586379.2198606245%2C4915812.45983156%2C596152.2068583015%2C4925585.446829237
 
-        The size of the image (tile) is 256px x 256px.
+   The size of the image (tile) is 256px x 256px.
 
 8. What is the URL of your coarse resolution sample of a WMTS url? What level does this tile refer to? Notice the differences. What are some of the fields that are unique to this url?
 
     A. https://verbose-funicular-4xqqqw4pp5427597-8080.app.github.dev/geoserver/gwc/service/wmts?layer=spearfish&style=&tilematrixset=EPSG%3A4326&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image%2Fpng&TileMatrix=EPSG%3A4326%3A11&TileCol=864&TileRow=518
 
-        The tile level is 11.
+   The tile level is 11.
 
-        TileCol and TileRow are uniqe to wmts request
+   TileCol and TileRow are uniqe to wmts request
 
 9. In the zoomed-out URL, what are the TileCol and TileRow?
 
