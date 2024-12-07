@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17380317)
 # Introduction to GeoServer
 
 **Important**: Note that the screenshots below indicate geoserver is running on http://localhost:8080/geoserver/web BUT with the codespace URL you are going to have something like https://aaryno-expert-adventure-4j7qjwq96pqhqxq9-8080/geoserver/web
